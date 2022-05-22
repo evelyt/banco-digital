@@ -1,0 +1,19 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+
+		Conta cc = new ContaCorrente();
+		Conta poupanca = new ContaPoupanca();
+		Conta poupanca1 = new ContaPoupanca();
+		
+		cc.depositar(100);
+		cc.transferir(50, poupanca);
+		cc.transferir(8, poupanca1);
+		
+		cc.imprimirExtrato();
+		poupanca.imprimirExtrato();
+		poupanca1.imprimirExtrato();
+	}
+
+}

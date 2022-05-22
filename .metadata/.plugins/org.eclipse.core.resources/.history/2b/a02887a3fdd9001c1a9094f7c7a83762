@@ -1,0 +1,12 @@
+
+public class ContaPoupanca extends Conta{
+	
+	
+
+	public ContaPoupanca() {
+		super.agencia = Conta.AGENCIA_PADRAO;
+		super.numero = SEQUENCIAL;
+	}
+
+
+}
